@@ -1,0 +1,165 @@
+
+.profile
+{
+    text-align: center;
+}
+.profile img
+{
+    border-radius: 1000px;
+    transition: 0.3s;
+    width= 20rem;
+    height: 20rem;
+}
+.profile img:hover 
+{
+    border-radius: 50px;
+}
+.profile p
+{
+    color: #888;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.contacts ul
+{
+    text-align: left;
+}
+.contacts li
+{
+    text-align: left;
+    padding: 1rem;
+    border-top: 1px solid rgb(179, 179, 255);
+    border-bottom: 1px solid rgb(179, 179, 255);
+}
+p
+{
+    color: black;
+    font-size: 13pt;
+    font-family: "BodyFont";
+}
+h1
+{
+    vertical-align: top;
+    color: black;
+    font-family:"NameFont";
+}
+h2
+{
+    
+    vertical-align: top;
+    color: grey;
+    font-family:"NameFont";
+    font-size: 10pt;
+}
+h3
+{
+    border-bottom: 1px solid rgb(179, 179, 255);
+    border-top: 1px solid rgb(179, 179, 255);
+    padding: 2rem 0;
+    color: rgb(255, 0, 102);
+    font-family:"NameFont";
+    font-size: 18pt;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+ul
+{
+    list-style-type: none; 
+}
+li
+{
+    font-size: 10pt;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+@font-face
+{
+    font-family :"NameFont";
+    src:url("Fonts/Bosnia-j6jR.otf") format("opentype")
+}
+@font-face
+{
+    font-family:"BodyFont";
+    src:url("Fonts/Sora-VariableFont_wght.ttf") format("truetype")
+}
+.container 
+{
+     background-color: rgb(179, 179, 255);
+     width: 50%;
+     border-radius: 15px;
+    
+}
+  
+.skill 
+{
+     background-color: rgb(255, 0, 102);
+     color: white;
+     padding: 1%;
+     text-align: right;
+     font-size: 15px;
+     border-radius: 15px;
+}
+.Twenty
+{
+    width: 20%;
+}
+.Thirty
+{
+    width: 30%;
+}
+.Fourty
+{
+    width: 40%;
+}
+.Fifty
+{
+    width: 50%;
+}
+.Seventy
+{
+    width: 70%;
+}
+.Ninty
+{
+    width: 90%;
+}
+.Skills > ul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.panel
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul + ul
+{
+    margin-left: 1rem;
+}
+.text li + li
+{
+    margin-left: 2rem;
+}
+.button
+{
+    background-color: rgb(179, 179, 255);
+    border: none;
+    transition: 0.6s;
+    border-radius: 15px;
+    padding: 10px 25px;
+    text-align: center;
+    color: white;
+    font-size: 13pt;
+    cursor: pointer;
+}
+.button:hover
+{
+    background-color: rgb(255, 0, 102);
+    border-radius: 20px;
+}
